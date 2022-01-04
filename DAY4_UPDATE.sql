@@ -3,6 +3,7 @@
     
 ==============================================================================*/  
    -- primary-foreign bağlantisi son 2 soruda işe yarayacak
+   use sys;
    CREATE TABLE tedarikciler -- parent
     (
         vergi_no int PRIMARY KEY,

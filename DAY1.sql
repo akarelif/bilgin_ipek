@@ -1,5 +1,5 @@
 -- ===================SELECT-WHERE======================
-
+use sys;
  create table ogrenciler (
 id int,
 isim varchar(45),
