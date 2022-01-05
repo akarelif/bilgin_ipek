@@ -76,7 +76,14 @@ modify ulke_adi varchar(30) not null;
     
 select * from isciler;
 
+-- =============================================
+-- maas limit kisitlaması ekle 
+alter table isciler add constraint check(maas>3499);
+-- Maas alt limit kisitlamasi atadik
+-- Kisitlama atadiktan sonra maasin 3500 altinda olmasi sebebiyle
+-- alttaki veriyi giremeyiz
 
+INSERT INTO isciler VALUES(123452310, 'Hatice Sahin', 'Bursa', 3000, null);
 
 
 
